@@ -24,6 +24,25 @@
         COMBTclear {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <0 9>;
+            layers = <0 2>;
+        };
+
+        Lock {
+            bindings = <&kp RC(RA(DELETE))>;
+            key-positions = <6 7 8>;
+            layers = <0>;
+        };
+    };
+
+    behaviors {
+        BackDEL: BackDEL {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKDEL";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
         };
     };
 
@@ -34,8 +53,8 @@
             label = "DEF";
             bindings = <
   &mt LEFT_ALT Q  &kp W  &kp E               &kp R             &kp T        &kp Y      &kp U              &kp I                &kp O    &kp SQT
-  &kp A           &kp S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G        &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &kp L    &kp P
-  &kp Z           &kp X  &kp C               &kp V             &kp B        &kp N      &kp M              &kp COMMA            &kp DOT  &kp SEMICOLON
+  &kp A           &kp S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &lt 1 G      &lt 1 H    &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &kp L    &kp P
+  &kp Z           &kp X  &lt 2 C             &kp V             &kp B        &kp N      &kp M              &kp COMMA            &kp DOT  &kp SEMICOLON
                                              &kp TAB           &kp SPACE    &kp ENTER  &kp BACKSPACE
             >;
         };
@@ -49,12 +68,12 @@
             >;
         };
 
-        numbers+symbols {
+        arrows {
             bindings = <
-  &none         &none             &none  &kp UNDERSCORE  &kp STAR           &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans
-  &none         &none             &none  &none           &kp NUMBER_5       &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none
-  &kp NUMBER_6  &kp LEFT_CONTROL  &none  &kp LEFT_SHIFT  &kp EXCLAMATION    &trans  &none           &none         &trans     &trans
-                                         &trans          &trans             &trans  &trans
+  &none  &none             &none  &none           &none     &trans         &kp HOME        &kp UP_ARROW  &kp END    &trans
+  &none  &none             &none  &none           &none     &kp LC(LA(H))  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none
+  &none  &kp LEFT_CONTROL  &none  &kp LEFT_SHIFT  &none     &trans         &none           &none         &trans     &trans
+                                  &trans          &trans    &trans         &trans
             >;
         };
 
