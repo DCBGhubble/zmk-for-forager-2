@@ -20,7 +20,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - L
-  - {t: /, s: '?'}
+  - P
   - Z
   - X
   - {t: C, h: arrows}
@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - P
+  - {t: /, s: '?'}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -221,3 +221,5 @@ combos:
   k: $$mdi:progress-download$$
 - p: [1, 2, 3]
   k: $$mdi:keyboard-esc$$
+- p: [5, 6, 7, 8]
+  k: $$mdi:progress-download$$
