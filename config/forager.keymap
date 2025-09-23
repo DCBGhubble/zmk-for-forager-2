@@ -52,7 +52,6 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
-            keep-mods = <(MOD_LSFT)>;
         };
 
         LHRm: LHRm {
@@ -61,7 +60,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>;
             flavor = "tap-preferred";
         };
@@ -72,7 +71,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <149>;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>;
             flavor = "tap-preferred";
         };
@@ -84,7 +83,6 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
-            keep-mods = <(MOD_LSFT)>;
         };
 
         modcolon: modcolon {
@@ -105,15 +103,15 @@
             label = "DEF";
             bindings = <
   &LHRm LEFT_ALT Q  &kp W  &kp E                 &kp R               &kp T        &kp Y      &kp U                &kp I                  &kp O      &kp SQT
-  &kp A             &kp S  &LHRm LEFT_CONTROL D  &LHRm LEFT_SHIFT F  &lt 1 G      &lt 1 H    &RHRm RIGHT_SHIFT J  &RHRm RIGHT_CONTROL K  &kp L      &kp P
-  &kp Z             &kp X  &lt 2 C               &kp V               &kp B        &kp N      &kp M                &Modsemi               &modcolon  &kp SLASH
+  &kp A             &kp S  &LHRm LEFT_CONTROL D  &LHRm LEFT_SHIFT F  &lt 1 G      &lt 1 H    &RHRm RIGHT_SHIFT J  &RHRm RIGHT_CONTROL K  &kp L      &kp SLASH
+  &kp Z             &kp X  &lt 2 C               &kp V               &kp B        &kp N      &kp M                &Modsemi               &modcolon  &kp P
                                                  &kp TAB             &kp SPACE    &kp ENTER  &BackDEL
             >;
         };
 
         numsym {
             bindings = <
-  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp AT_SIGN     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTRK   &none        &none
+  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp AT_SIGN     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTRK   &kp SEMI     &kp COLON
   &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS    &kp EQUAL    &kp APOSTROPHE
   &none  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp EXCLAMATION       &kp QUESTION           &kp DOLLAR  &kp PERCENT  &none
                                      &trans        &trans          &trans                &trans
