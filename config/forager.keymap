@@ -33,7 +33,7 @@
             layers = <0>;
         };
 
-        Boot {
+        BootL {
             bindings = <&bootloader>;
             key-positions = <1 2 4 3>;
         };
@@ -41,6 +41,11 @@
         ESCombo {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2 3>;
+        };
+
+        BootR {
+            bindings = <&bootloader>;
+            key-positions = <5 6 7 8>;
         };
     };
 
@@ -103,8 +108,8 @@
             label = "DEF";
             bindings = <
   &LHRm LEFT_ALT Q  &kp W  &kp E                 &kp R               &kp T        &kp Y      &kp U                &kp I                  &kp O      &kp SQT
-  &kp A             &kp S  &LHRm LEFT_CONTROL D  &LHRm LEFT_SHIFT F  &lt 1 G      &lt 1 H    &RHRm RIGHT_SHIFT J  &RHRm RIGHT_CONTROL K  &kp L      &kp SLASH
-  &kp Z             &kp X  &lt 2 C               &kp V               &kp B        &kp N      &kp M                &Modsemi               &modcolon  &kp P
+  &kp A             &kp S  &LHRm LEFT_CONTROL D  &LHRm LEFT_SHIFT F  &lt 1 G      &lt 1 H    &RHRm RIGHT_SHIFT J  &RHRm RIGHT_CONTROL K  &kp L      &kp P
+  &kp Z             &kp X  &lt 2 C               &kp V               &kp B        &kp N      &kp M                &Modsemi               &modcolon  &kp SLASH
                                                  &kp TAB             &kp SPACE    &kp ENTER  &BackDEL
             >;
         };
