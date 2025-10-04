@@ -29,23 +29,13 @@
 
         Lock {
             bindings = <&kp RC(RA(DELETE))>;
-            key-positions = <6 7 8>;
+            key-positions = <7 8 6>;
             layers = <0>;
-        };
-
-        BootL {
-            bindings = <&bootloader>;
-            key-positions = <1 2 4 3>;
         };
 
         ESCombo {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2 3>;
-        };
-
-        BootR {
-            bindings = <&bootloader>;
-            key-positions = <5 6 7 8>;
         };
 
         BluetoothNext {
