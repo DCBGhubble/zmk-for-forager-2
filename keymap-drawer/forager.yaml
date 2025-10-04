@@ -80,7 +80,7 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+7, s: Gui+&}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -90,24 +90,24 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+6
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - {t: Gui+5, s: Gui+%}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   funtions-btns-sys:
-  - F11
-  - F12
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -120,14 +120,14 @@ layers:
   - F2
   - F3
   - F4
-  - F5
+  - $$mdi:progress-download$$
   - $$mdi:progress-download$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F6
-  - F7
+  - {t: F6, type: held}
+  - {t: F7, type: held}
   - F8
   - F9
   - {t: '$$mdi:transfer$$', type: trans}
@@ -223,3 +223,7 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [5, 6, 7, 8]
   k: $$mdi:progress-download$$
+- p: [30, 33, 32, 31]
+  k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+- p: [20, 21]
+  k: {t: '$$mdi:keyboard-space$$', h: funtions-btns-sys}
