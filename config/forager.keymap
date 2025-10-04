@@ -47,6 +47,16 @@
             bindings = <&bootloader>;
             key-positions = <5 6 7 8>;
         };
+
+        BluetoothNext {
+            bindings = <&bt BT_NXT>;
+            key-positions = <30 33 32 31>;
+        };
+
+        BTlayer {
+            bindings = <&lt 3 SPACE>;
+            key-positions = <20 21>;
+        };
     };
 
     behaviors {
@@ -125,19 +135,19 @@
 
         arrows {
             bindings = <
-  &none  &none             &none  &none           &none     &trans         &kp HOME        &kp UP_ARROW  &kp END    &trans
-  &none  &none             &none  &none           &none     &kp LC(LA(H))  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none
-  &none  &kp LEFT_CONTROL  &none  &kp LEFT_SHIFT  &none     &trans         &none           &none         &trans     &trans
-                                  &trans          &trans    &trans         &trans
+  &none  &none             &none  &none           &none     &trans            &kp HOME          &kp UP_ARROW      &kp END           &kp RG(N7)
+  &none  &none             &none  &none           &none     &kp LC(LA(H))     &kp LEFT_ARROW    &kp DOWN          &kp RIGHT         &kp RG(NUMBER_6)
+  &none  &kp LEFT_CONTROL  &none  &kp LEFT_SHIFT  &none     &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RG(N5)
+                                  &trans          &trans    &trans            &trans
             >;
         };
 
         funtions-btns-sys {
             bindings = <
-  &kp F11  &kp F12  &trans  &trans  &trans     &sys_reset   &trans        &trans        &trans        &bt BT_CLR
-  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
-  &kp F6   &kp F7   &kp F8  &kp F9  &trans     &none        &trans        &trans        &trans        &trans
-                            &trans  &kp F10    &trans       &trans
+  &none   &none   &trans  &trans  &trans         &sys_reset   &trans        &trans        &trans        &bt BT_CLR
+  &kp F1  &kp F2  &kp F3  &kp F4  &bootloader    &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
+  &kp F6  &kp F7  &kp F8  &kp F9  &trans         &none        &trans        &trans        &trans        &trans
+                          &trans  &kp F10        &trans       &trans
             >;
         };
 
