@@ -171,10 +171,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:brightness-7$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   system_danger:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -214,16 +214,18 @@ combos:
 - p: [0, 9]
   k: BT CLR ALL
   l: [DEF, arrows]
-- p: [7, 8, 6]
+- p: [6, 5]
   k: Ctl+AltGr+$$mdi:backspace-reverse-outline$$
   l: [DEF]
-- p: [1, 2, 3]
+- p: [3, 4]
   k: $$mdi:keyboard-esc$$
-- p: [30, 33, 32, 31]
+- p: [33, 32]
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
 - p: [20, 21]
   k: funtions-btns-sys
-- p: [26, 27, 28]
+- p: [26, 27]
   k: {t: media_and_mouse, h: toggle}
-- p: [20, 29]
+- p: [25, 26]
   k: Gui+L
+- p: [16, 17]
+  k: {t: DEF, h: toggle}
