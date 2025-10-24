@@ -29,18 +29,18 @@
 
         Ctrlaltdel {
             bindings = <&kp RC(RA(DELETE))>;
-            key-positions = <7 8 6>;
+            key-positions = <6 5>;
             layers = <0>;
         };
 
         ESCombo {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 2 3>;
+            key-positions = <3 4>;
         };
 
         BluetoothNext {
             bindings = <&bt BT_NXT>;
-            key-positions = <30 33 32 31>;
+            key-positions = <33 32>;
         };
 
         BTlayer {
@@ -49,14 +49,19 @@
         };
 
         mousetoggle {
-            bindings = <&tog 4>;
-            key-positions = <26 27 28>;
+            bindings = <&to 4>;
+            key-positions = <26 27>;
         };
 
         lock {
             bindings = <&kp RG(L)>;
-            key-positions = <20 29>;
+            key-positions = <25 26>;
             require-prior-idle-ms = <300>;
+        };
+
+        Homelayer {
+            bindings = <&to 0>;
+            key-positions = <16 17>;
         };
     };
 
@@ -156,10 +161,10 @@
 
         media_and_mouse {
             bindings = <
-  &none  &none  &none  &none  &none    &msc SCRL_UP    &kp C_VOLUME_UP  &kp K_MUTE  &kp C_VOL_DN     &kp C_BRIGHTNESS_INC
-  &none  &none  &none  &none  &none    &mmv MOVE_LEFT  &mkp LCLK        &mkp RCLK   &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_AUTO
-  &none  &none  &none  &none  &none    &msc SCRL_DOWN  &none            &none       &none            &kp C_BRIGHTNESS_DEC
-                       &none  &none    &mkp LCLK       &mkp RCLK
+  &none  &none  &none  &none   &none     &msc SCRL_UP    &kp C_VOLUME_UP  &kp K_MUTE  &kp C_VOL_DN     &kp C_BRIGHTNESS_INC
+  &none  &none  &none  &none   &none     &mmv MOVE_LEFT  &mkp LCLK        &mkp RCLK   &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_AUTO
+  &none  &none  &none  &none   &none     &msc SCRL_DOWN  &none            &none       &none            &kp C_BRIGHTNESS_DEC
+                       &trans  &trans    &trans          &trans
             >;
         };
 
