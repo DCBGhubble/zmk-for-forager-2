@@ -35,7 +35,7 @@
 
         ESCombo {
             bindings = <&kp ESCAPE>;
-            key-positions = <3 4>;
+            key-positions = <0 1>;
         };
 
         BluetoothNext {
