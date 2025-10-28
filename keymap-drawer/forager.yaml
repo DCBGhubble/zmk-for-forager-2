@@ -217,7 +217,7 @@ combos:
 - p: [6, 5]
   k: Ctl+AltGr+$$mdi:backspace-reverse-outline$$
   l: [DEF]
-- p: [3, 4]
+- p: [0, 1]
   k: $$mdi:keyboard-esc$$
 - p: [33, 32]
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
