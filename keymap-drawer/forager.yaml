@@ -80,7 +80,7 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - {t: Gui+7, s: Gui+&}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:keyboard-tab$$
   - Ctl+T
@@ -90,17 +90,17 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Gui+6
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LEFT WIN
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+1
-  - Gui+2
-  - {t: Gui+3, type: held alternate}
-  - Gui+4
-  - {t: Gui+5, s: Gui+%}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,9 +142,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   media_and_mouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-control$$
+  - Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - Alt+$$mdi:arrow-right-bold$$
   - PgUp
   - $$mdi:pan-up$$
   - $$mdi:volume-high$$
@@ -156,15 +156,15 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+$$mdi:arrow-left-bold$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - Alt+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-right$$
   - PgDn
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -214,14 +214,14 @@ combos:
 - p: [0, 9]
   k: BT CLR ALL
   l: [DEF, arrows]
-- p: [6, 5]
+- p: [8, 9]
   k: Ctl+AltGr+$$mdi:backspace-reverse-outline$$
   l: [DEF]
 - p: [20, 21]
   k: funtions-btns-sys
 - p: [26, 27]
   k: {t: media_and_mouse, h: toggle}
-- p: [25, 26]
+- p: [28, 29]
   k: Gui+L
 - p: [16, 17]
   k: {t: DEF, h: toggle}
