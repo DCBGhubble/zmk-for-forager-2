@@ -141,10 +141,10 @@
 
         arrows {
             bindings = <
-  &kp ESCAPE          &kp LC(F4)        &kp LG(UP_ARROW)  &none           &kp LA(F4)       &kp LG(LS(S))  &kp HOME        &kp UP_ARROW  &kp END    &none
-  &kp LG(LEFT_ARROW)  &kp LC(TAB)       &kp LC(T)         &kp LC(F)       &kp LG(RIGHT)    &kp RG(TAB)    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none
-  &kp LEFT_WIN        &kp LEFT_CONTROL  &none             &kp LEFT_SHIFT  &none            &none          &none           &none         &none      &none
-                                                          &trans          &trans           &trans         &trans
+  &kp LC(F4)          &kp LC(TAB)       &kp LC(T)  &kp LC(F)       &none            &kp LC(X)         &kp HOME          &kp UP_ARROW      &kp END           &none
+  &kp LG(LEFT_ARROW)  &kp LC(TAB)       &kp LC(T)  &kp LC(F)       &kp LG(RIGHT)    &kp LC(V)         &kp LEFT_ARROW    &kp DOWN          &kp RIGHT         &kp RG(TAB)
+  &kp LEFT_WIN        &kp LEFT_CONTROL  &none      &kp LEFT_SHIFT  &none            &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RG(N5)
+                                                   &trans          &trans           &trans            &trans
             >;
         };
 
@@ -159,10 +159,10 @@
 
         media_and_mouse {
             bindings = <
-  &none  &kp LA(LEFT)    &mmv MOVE_UP    &kp LA(RIGHT)    &kp PAGE_UP      &msc SCRL_UP       &kp C_VOLUME_UP  &kp K_MUTE  &kp C_VOL_DN  &kp C_BRIGHTNESS_INC
-  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none            &kp RIGHT_CONTROL  &mkp LCLK        &mkp RCLK   &none         &none
-  &none  &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &kp PAGE_DOWN    &msc SCRL_DOWN     &none            &none       &none         &kp C_BRIGHTNESS_DEC
-                                         &trans           &trans           &trans             &trans
+  &kp ESCAPE  &none           &mmv MOVE_UP    &none            &kp PAGE_UP      &msc SCRL_UP       &kp C_VOLUME_UP  &kp K_MUTE       &kp C_VOL_DN  &kp C_BRIGHTNESS_INC
+  &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none            &kp RIGHT_CONTROL  &mkp LCLK        &mkp RCLK        &none         &none
+  &none       &kp LA(LEFT)    &none           &kp LA(RIGHT)    &kp PAGE_DOWN    &msc SCRL_DOWN     &msc SCRL_LEFT   &msc SCRL_RIGHT  &none         &kp C_BRIGHTNESS_DEC
+                                              &trans           &trans           &trans             &trans
             >;
         };
 
