@@ -55,7 +55,7 @@ layers:
   - )
   - +
   - {t: '=', s: +}
-  - <
+  - '&'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
   - '8'
