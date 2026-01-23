@@ -225,3 +225,5 @@ combos:
   k: Gui+L
 - p: [16, 17]
   k: {t: DEF, h: toggle}
+- p: [15, 16]
+  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}

@@ -531,6 +531,10 @@ rect.held, rect.combo.held {
 <text x="560" y="91" class="combo tap layer-activator">DEF</text>
 </a><text x="560" y="102" class="combo hold">toggle</text>
 </g>
+<g class="combo backspace combopos-6">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="495" y="92" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 342)" class="layer-numsym">
@@ -734,6 +738,10 @@ rect.held, rect.combo.held {
 <a href="#DEF">
 <text x="560" y="91" class="combo tap layer-activator">DEF</text>
 </a><text x="560" y="102" class="combo hold">toggle</text>
+</g>
+<g class="combo backspace combopos-4">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="495" y="92" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>
@@ -943,6 +951,10 @@ rect.held, rect.combo.held {
 <text x="560" y="91" class="combo tap layer-activator">DEF</text>
 </a><text x="560" y="102" class="combo hold">toggle</text>
 </g>
+<g class="combo backspace combopos-5">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="495" y="92" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1026)" class="layer-funtions-btns-sys">
@@ -1142,6 +1154,10 @@ rect.held, rect.combo.held {
 <a href="#DEF">
 <text x="560" y="91" class="combo tap layer-activator">DEF</text>
 </a><text x="560" y="102" class="combo hold">toggle</text>
+</g>
+<g class="combo backspace combopos-4">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="495" y="92" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>
@@ -1343,6 +1359,10 @@ rect.held, rect.combo.held {
 <a href="#DEF">
 <text x="560" y="91" class="combo tap layer-activator">DEF</text>
 </a><text x="560" y="102" class="combo hold">toggle</text>
+</g>
+<g class="combo backspace combopos-4">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="495" y="92" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>
@@ -1554,6 +1574,10 @@ rect.held, rect.combo.held {
 <a href="#DEF">
 <text x="560" y="91" class="combo tap layer-activator">DEF</text>
 </a><text x="560" y="102" class="combo hold">toggle</text>
+</g>
+<g class="combo backspace combopos-4">
+<rect rx="6" ry="6" x="490" y="88" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="495" y="92" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>
