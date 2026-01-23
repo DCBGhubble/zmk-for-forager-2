@@ -59,6 +59,11 @@
             bindings = <&to 0>;
             key-positions = <16 17>;
         };
+
+        Ctrlback {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <15 16>;
+        };
     };
 
     behaviors {
