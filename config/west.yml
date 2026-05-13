@@ -16,5 +16,9 @@ manifest:
     - name: forager-zmk-module
       remote: carrefinho
       revision: main
+    - name: zmk-studio-messages
+      remote: zmkfirmware
+      revision: main
+      path: modules/msgs/zmk-studio-messages
   self:
     path: config
