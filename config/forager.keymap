@@ -147,7 +147,7 @@
         arrows {
             bindings = <
   &kp LC(F4)    &kp LC(TAB)       &kp LC(T)  &kp LC(F)       &kp LA(TAB)      &kp LC(LA(M))  &kp HOME        &kp UP_ARROW  &kp END    &kp RG(TAB)
-  &none         &none             &none      &none           &none            &none          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp LC(LS(E))
+  &none         &none             &none      &none           &kp LC(H)        &none          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp LC(LS(E))
   &kp LEFT_WIN  &kp LEFT_CONTROL  &none      &kp LEFT_SHIFT  &kp LS(LA(R))    &kp LA(LS(A))  &none           &none         &none      &none
                                              &trans          &trans           &trans         &trans
             >;
@@ -164,9 +164,9 @@
 
         media_and_mouse {
             bindings = <
-  &kp ESCAPE    &none           &mmv MOVE_UP    &none            &none            &none              &msc SCRL_UP    &msc SCRL_DOWN   &kp C_VOL_DN          &kp C_VOL_UP
+  &kp ESCAPE    &kp LC(TAB)     &mmv MOVE_UP    &kp LC(T)        &none            &none              &msc SCRL_UP    &msc SCRL_DOWN   &kp C_VOL_DN          &kp C_VOL_UP
   &kp LG(LEFT)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LG(RIGHT)    &kp RIGHT_CONTROL  &mkp LCLK       &mkp RCLK        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
-  &none         &kp LA(LEFT)    &kp LC(TAB)     &kp LA(RIGHT)    &none            &none              &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp LC(LS(M))         &kp K_MUTE
+  &none         &kp LA(LEFT)    &kp LC(F4)      &kp LA(RIGHT)    &none            &none              &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp LC(LS(M))         &kp K_MUTE
                                                 &trans           &trans           &trans             &trans
             >;
         };
