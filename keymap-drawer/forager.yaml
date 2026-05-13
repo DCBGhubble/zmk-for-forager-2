@@ -75,17 +75,17 @@ layers:
   - Ctl+$$mdi:keyboard-tab$$
   - Ctl+T
   - Ctl+F
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+$$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
   - Gui+$$mdi:keyboard-tab$$
-  - Gui+$$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+$$mdi:keyboard-tab$$
   - Ctl+T
   - Ctl+F
-  - Gui+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
