@@ -146,10 +146,10 @@
 
         arrows {
             bindings = <
-  &kp LC(F4)          &kp LC(TAB)       &kp LC(T)  &kp LC(F)       &none            &none          &kp HOME        &kp UP_ARROW  &kp END    &kp RG(TAB)
-  &kp LG(LEFT_ARROW)  &kp LC(TAB)       &kp LC(T)  &kp LC(F)       &kp LG(RIGHT)    &none          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp LC(LS(E))
-  &kp LEFT_WIN        &kp LEFT_CONTROL  &none      &kp LEFT_SHIFT  &kp LS(LA(R))    &kp LA(LS(A))  &none           &none         &none      &none
-                                                   &trans          &trans           &trans         &trans
+  &kp LC(F4)    &kp LC(TAB)       &kp LC(T)  &kp LC(F)       &kp LA(TAB)      &none          &kp HOME        &kp UP_ARROW  &kp END    &kp RG(TAB)
+  &none         &kp LC(TAB)       &kp LC(T)  &kp LC(F)       &none            &none          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp LC(LS(E))
+  &kp LEFT_WIN  &kp LEFT_CONTROL  &none      &kp LEFT_SHIFT  &kp LS(LA(R))    &kp LA(LS(A))  &none           &none         &none      &none
+                                             &trans          &trans           &trans         &trans
             >;
         };
 
