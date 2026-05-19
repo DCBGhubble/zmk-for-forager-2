@@ -163,7 +163,7 @@ layers:
   - $$mdi:brightness-5$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+$$mdi:arrow-left-bold$$
-  - Ctl+F4
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -227,3 +227,5 @@ combos:
   k: {t: DEF, h: toggle}
 - p: [15, 16]
   k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+- p: [1, 2, 3]
+  k: Alt+Ctl+F4
